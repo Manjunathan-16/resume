@@ -2,6 +2,8 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
     <title>MANJUNATHAN_Resume</title>
     <!-- adding all styling here -->
     <style>
@@ -9,40 +11,54 @@
         #centered {
             text-align: center;
         }
+
+        #heading-color {
+            color: darkblue;
+        }
+
         /* To Give space inbetween same line */
         #space {
             display: flex;
             justify-content: space-between;
         }
+
         /* To give margin/space from left side */
         #specific-link {
             margin-left: 20px;
         }
-        #mr{
+
+        #mr {
             margin-right: 500px;
         }
-        #ml{
+
+        #ml {
             margin-left: 100px;
         }
     </style>
     <div id="centered">
-        <h1>MANJUNATHAN S</h1>
-        <h1>SENIOR SOFTWARE ENGINEER</h1>
+        <h1 id="heading-color">MANJUNATHAN S</h1>
     </div>
-    <h3>Bangalore - (+91) 7892823716</h3>
-    <a href="mailto:manjunathan.16.1998@gmail.com">manjunathan.16.1998@gmail.com </a>
-    <a href="https://www.linkedin.com/in/manjunathan-s-6b60381b2" id="specific-link">www.linkedin.com/in/manjunathan</a>
+    <h3 id="centered">Bangalore - (+91) 7892823716</h3>
+    <div id="centered">
+        <a href="mailto:manjunathan.16.1998@gmail.com">manjunathan.16.1998@gmail.com </a>
+        <a href="https://www.linkedin.com/in/manjunathan-s-6b60381b2"
+            id="specific-link">www.linkedin.com/in/manjunathan</a>
+    </div>
+
 </head>
+
+<hr>
 
 <body>
 
-    <h2>OBJECTIVE</h2>
+    <h2 id="heading-color">OBJECTIVE</h2>
     <p>
-        Java Spring boot Microservice developer with 2+ years of experience in developing web applications
-        using server-side language Java. Proficient in leveraging the power of Java and Spring to design and develop
-        scalable solutions that meet business requirements.</p>
+        To leverage my 2.7+ years of hands-on experience as a dedicated Java developer proficient in various Java-based
+        frameworks. Seeking a dynamic role that allows me to apply my expertise, passion for programming, and quick
+        learning ability to contribute effectively while continuously adapting to and mastering new technologies in a
+        challenging environment. </p>
 
-    <h2>WORK EXPERIENCE</h2>
+    <h2 id="heading-color">WORK EXPERIENCE</h2>
     <h4>SENIOR SOFTWARE ENGINEER</h4>
     <h4>
         <div id="space">
@@ -53,20 +69,22 @@
         </div>
     </h4>
     <ul id="p">
-        <li> Built and maintained efficient, reusable, and reliable Java code based on User Stories.</li>
-        <li> Showcased proficient skills in object-oriented programming, demonstrating a strong command over
-            this approach.</li>
-        <li> Attained a comprehensive grasp of the complete software development lifecycle, encompassing Java
-            Spring Boot technologies.</li>
-        <li> Executed Java code implementation that incorporated multi-threading, object-oriented programming
-            (OOPS) principles, Collections, and proficiently managed Exception handling within Software
-            Projects.</li>
-        <li>Created RESTful APIs to facilitate seamless communication between servers and clients.</li>
-        <li> Employed Agile methodologies to ensure streamlined processes, resulting in punctual project
-            deliveries.</li>
+        <li> Developed and maintained efficient, reusable, and reliable Java code based on User Stories, emphasizing
+            strong object-oriented programming and Java Spring Boot. </li>
+        <li> Implemented <b>multi-threading, OOP concepts, Collections, and Exception handling</b> in various software
+            projects. </li>
+        <li> Created REST APIs for effective server-client communication, employing Agile methodologies for timely
+            deliveries. </li>
+        <li> Led UI development to ensure an intuitive and user-friendly interface, resolving backend and frontend
+            issues on the Cisco Prime Collaboration Deployment project. </li>
+        <li> Established Jenkins jobs for task scheduling, enhancing automation and efficiency, and set up a CI/CD
+            pipeline for automated code build and deployment.</li>
+        <li> Collaborated with cross-functional teams, participated in code reviews, and contributed to maintaining
+            high code quality. Conducted technical root cause analysis and implemented corrective actions via JIRA
+            tickets.</li>
     </ul>
 
-    <h2>EDUCATION</h2>
+    <h2 id="heading-color">EDUCATION</h2>
     <h4>
         <div id="space">
             <div>Acharya Institute of Technology, Bengaluru.</div>
@@ -74,34 +92,46 @@
         </div>
         <div>Electrical and Electronics Engineering</div>
     </h4>
-    <h2>TECHNICAL SKILLS</h2>
+
+    <h2 id="heading-color">TECHNICAL SKILLS</h2>
     <ul>
         <div id="space">
             <div id="ml">
-        <li>Java</li>
-        <li>OOPS</li>
-        <li>Java Collections</li>
-        <li>Spring Boot</li>
-        <li>Spring MVC</li>
-        <li>Spring JPA Hibernate</li>
-    </div>
-    <div id="mr">
-        <li>RESTful API</li>
-        <li>ReactJS</li>
-        <li>SQL</li>
-        <li>JSP & Servlet</li>
-        <li>Maven</li>
-        <li>Microservice</li>
-    </div>
-    </div>
+                <li>Java</li>
+                <li>OOP</li>
+                <li>Java Collections</li>
+                <li>Spring Boot</li>
+                <li>Microservice</li>
+                <li>ReactJS</li>
+            </div>
+            <div id="mr">
+                <li>RESTful API</li>
+                <li>Spring MVC</li>
+                <li>Spring JPA Hibernate</li>
+                <li>SQL</li>
+                <li>JSP & Servlet</li>
+                <li>Maven</li>
+            </div>
+        </div>
     </ul>
 
-    <h2>AWARDS & RECOGNITIONS</h2>
-    <p>Rookie of the Quarter: Recognized for outstanding performance and dedication to the team during the first
+    <h2 id="heading-color">PROJECTS</h2>
+    <h4>ONLINE PURCHASING WEBSITE (Self-learning)</h4>
+    <ul>
+        <li> Designed and implemented an online purchasing website using <b>React.js, HTML, CSS</b>. The Website enables
+            customers to browse products and express interest by filling out a contact form </li>
+        <li> Incorporated a user-friendly contact form on the website, allowing customers to submit their details for
+            product purchases. The submitted information is promptly forwarded to my email for efficient communication.
+            <a href="https://github.com/Manjunathan-16/MyWebsite">https://github.com/Manjunathan-16/MyWebsite</a>
+        </li>
+    </ul>
+
+    <h2 id="heading-color">AWARDS & RECOGNITIONS</h2>
+    <p><b>Rookie of the Quarter:</b> Recognized for outstanding performance and dedication to the team during the first
         year at Infosys.</p>
-    <p>Infy iRise Award: Received in recognition of exceptional contributions to the company's innovation and
+    <p><b>Infy iRise Award:</b> Received in recognition of exceptional contributions to the company's innovation and
         technology initiatives.</p>
-    <p>MVP (Most Valuable Player) Award: Acknowledged for demonstrating exceptional skills, leadership, and
+    <p><b>MVP (Most Valuable Player) Award:</b> Acknowledged for demonstrating exceptional skills, leadership, and
         impactful contributions to the team's success at Infosys.</p>
 
 </body>
